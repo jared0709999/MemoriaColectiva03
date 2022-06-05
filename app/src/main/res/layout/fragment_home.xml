@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@drawable/side_nav_bar">
+
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="MEMORIA COLECTIVA"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="---Todos tenemos algo que contar---"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="264dp"
+        android:layout_height="236dp"
+        android:src="@drawable/mc"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="348dp"
+        android:layout_height="57dp"
+        android:text="EXPLORAR PUBLICACIONES"
+        app:rippleColor="#3F51B5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="348dp"
+        android:layout_height="57dp"
+        android:text="TENGO UNA CUENTA"
+        app:rippleColor="#3F51B5"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="559dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="130dp"
+        android:layout_height="112dp"
+        android:src="@drawable/face"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="126dp"
+        android:layout_height="112dp"
+        android:src="@drawable/google"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="216dp"
+        android:layout_height="59dp"
+        android:src="@drawable/info"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="639dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="163dp"
+        android:layout_height="57dp"
+        android:src="@drawable/tec"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="639dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
